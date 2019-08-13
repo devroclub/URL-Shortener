@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+#url {
+  position: relative;
+  max-width: 400px;
+  margin: 50px auto 0;
+}
+
+#url input {
+  border: 0;
+  border-bottom: 1px solid #00000080;
+  width: 100%;
+  font-size: 22px;
+  line-height: 35px;
+  height: 70px;
+  text-align: center;
+  padding: 10px;
+  background: transparent;
+  text-transform: lowercase;
+  color: #00000080;
+}
+
+#url input:focus {
+  outline: 0;
+  color: #00000080;
+  letter-spacing: .05rem;
+}
+
+#url input::placeholder {
+  color: #00000080;
+  letter-spacing: .05rem;
+  text-transform: uppercase;
+}
+
+.buttonmain {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: .05rem;
+  left: 5px;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.06), 0 2px 22px rgba(0,0,0,.07);
+  border-radius: 200rem;
+  border: none;
+  background: #5cdb95;
+  margin: 1rem .75rem .75rem;
+  padding: 0 2rem;
+  font-size: 1rem;
+  height: 3rem;
+  line-height: 3rem;
+  -webkit-transition: all .15s ease;
+  transition: all .15s ease;
+}
+
+#copy {
+  color: #5cdb95;
+  background-color: white;
+}
+
+.error {
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  font-size: .79rem;
+  color: #da552f;
+  cursor: pointer;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.App h1 {
+  color: #5cdb95;
+  margin-top: 40px;
+}
+
+.github {
+  color: #5cdb95;
+}
+.github:hover {
+  color: #5cdb95;
+}
