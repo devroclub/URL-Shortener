@@ -6,6 +6,8 @@ import Home from "./Home";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'jquery/dist/jquery.min.js'
 import 'bootstrap/dist/js/bootstrap.min.js'
+import Stats from "./Stats";
+import About from "./About";
 
 function App() {
     return (
@@ -42,9 +44,12 @@ function App() {
                 <Route exact={true} path='/' render={(props) => (
                     <Home {...props} />
                 )}/>
-                {/*<Route path='/:passcode' render={(props) => {*/}
-                {/*  return (<Home {...props} />);*/}
-                {/*}}/>*/}
+                <Route exact={true} path='/about' render={(props) => (
+                    <About {...props} />
+                )}/>
+                <Route exact={true} path='/stats' render={(props) => (
+                    <Stats {...props} />
+                )}/>
                 <div className="footer-bottom">
                     <span className="text-center">© 2019 URL Shortener | <a className="github"
                                                                                  href="https://github.com/devroclub/URL-Shortener"

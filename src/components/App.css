@@ -18,7 +18,6 @@
   text-align: center;
   padding: 10px;
   background: transparent;
-  text-transform: lowercase;
   color: #00000080;
 }
 
@@ -31,7 +30,6 @@
 #url input::placeholder {
   color: #00000080;
   letter-spacing: .05rem;
-  text-transform: uppercase;
 }
 
 .buttonmain {
@@ -56,6 +54,16 @@
   transition: all .15s ease;
 }
 
+.footer-bottom {
+  margin: 50px 0 30px 0;
+}
+
+.btn-success {
+  background-color: #5cdb95 !important;
+  color: black !important;
+  border-color: #5cdb95 !important;
+}
+
 #copy {
   color: #5cdb95;
   background-color: white;
@@ -71,7 +79,7 @@
   margin-top: 10px;
 }
 
-.App h1 {
+.App h1, .App h2 {
   color: #5cdb95;
   margin-top: 40px;
 }
@@ -81,4 +89,26 @@
 }
 .github:hover {
   color: #5cdb95;
+}
+
+.stat {
+  font-weight: bold;
+  color: #5cdb95;
+}
+.stat:hover {
+  text-decoration: none;
+  color: #5cdb95;
+}
+
+.link {
+  font-weight: bold;
+}
+.link:hover {
+  text-decoration: none !important;
+}
+
+.About p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 40px;
 }
