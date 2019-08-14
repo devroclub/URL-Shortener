@@ -3,13 +3,13 @@ import axios from 'axios';
 class StatsController {
     recent = async () => {
         return await axios.get(
-            'http://dc/api/shortener/stats?order=recent'
+            'https://devro.club/api/shortener/stats?order=recent'
         );
     };
 
     mostClicked = async () => {
         return await axios.get(
-            'http://dc/api/shortener/stats?order=clicks'
+            'https://devro.club/api/shortener/stats?order=clicks'
         );
     };
 
