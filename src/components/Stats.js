@@ -39,14 +39,14 @@ export default class Stats extends React.Component {
                         <tbody>
                         {this.state.show === "recent" && this.state.recent && this.state.recent.map((c, i) =>
                             <tr key={i}>
-                                <td><a className="link" href={"https://devro.club/" + c.hash}>https://devro.club/{c.hash}</a></td>
+                                <td><a target="_blank" className="link" href={"https://devro.club/" + c.hash}>https://devro.club/{c.hash}</a></td>
                                 <td>{c.count}</td>
                             </tr>
                         )}
 
                         {this.state.show === "clicks" && this.state.clicks && this.state.clicks.map((c, i) =>
                             <tr key={i}>
-                                <td><a className="link" href={"https://devro.club/" + c.hash}>https://devro.club/{c.hash}</a></td>
+                                <td><a target="_blank" className="link" href={"https://devro.club/" + c.hash}>https://devro.club/{c.hash}</a></td>
                                 <td>{c.count}</td>
                             </tr>
                         )}

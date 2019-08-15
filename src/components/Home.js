@@ -55,7 +55,7 @@ export default class Home extends React.Component {
                         {this.state.clicks && this.state.clicks.map((c, i) => {
                                 if (i < 10) {
                                     return (<tr key={i}>
-                                        <td><a className="link" href={"https://devro.club/" + c.hash}>https://devro.club/{c.hash}</a></td>
+                                        <td><a target="_blank" className="link" href={"https://devro.club/" + c.hash}>https://devro.club/{c.hash}</a></td>
                                         <td>{c.count}</td>
                                     </tr>);
                                 }
