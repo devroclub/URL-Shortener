@@ -44,7 +44,7 @@
   box-shadow: 0 1px 2px rgba(0,0,0,.06), 0 2px 22px rgba(0,0,0,.07);
   border-radius: 200rem;
   border: none;
-  background: #5cdb95;
+  background: #932bb3;
   margin: 1rem .75rem .75rem;
   padding: 0 2rem;
   font-size: 1rem;
@@ -58,14 +58,15 @@
   margin: 50px 0 30px 0;
 }
 
-.btn-success {
-  background-color: #5cdb95 !important;
-  color: black !important;
-  border-color: #5cdb95 !important;
+.btn-custom {
+  background-color: #932bb3 !important;
+  color: white !important;
+  border-color: #932bb3 !important;
+
 }
 
 #copy {
-  color: #5cdb95;
+  color: #932bb3;
   background-color: white;
 }
 
@@ -80,24 +81,24 @@
 }
 
 .App h1, .App h2 {
-  color: #5cdb95;
+  color: #932bb3;
   margin-top: 40px;
 }
 
 .github {
-  color: #5cdb95;
+  color: #932bb3;
 }
 .github:hover {
-  color: #5cdb95;
+  color: #932bb3;
 }
 
 .stat {
   font-weight: bold;
-  color: #5cdb95;
+  color: #932bb3;
 }
 .stat:hover {
   text-decoration: none;
-  color: #5cdb95;
+  color: #932bb3;
 }
 
 .link {
@@ -111,4 +112,15 @@
   font-size: 18px;
   font-weight: 500;
   margin-top: 40px;
+}
+
+.source {
+  color: #00000080;
+  overflow-wrap: break-word;
+  max-width: 500px;
+}
+
+svg {
+  color: #00000080;
+  cursor: pointer;
 }
